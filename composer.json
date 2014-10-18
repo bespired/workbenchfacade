@@ -1,0 +1,25 @@
+{
+    "name": "bespired/workbenchfacade",
+    "description": "",
+    "authors": [
+        {
+            "name": "centagon",
+            "email": "info@centagon.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src\\Bespired\\Workbenchfacade\\Commands"
+        ],
+        "psr-0": {
+            "Bespired\\Workbenchfacade": "src/"
+        }
+
+
+    },
+    "minimum-stability": "stable"
+}

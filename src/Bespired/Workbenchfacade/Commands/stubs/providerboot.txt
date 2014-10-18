@@ -1,0 +1,15 @@
+
+	public function boot()
+	{
+		$this->package('$package');
+
+		$this->app['$shortname'] = $this->app->share(function($app)
+		{
+			return new $classname;
+		});
+
+		$loader = \Illuminate\Foundation\AliasLoader::getInstance();
+		$loader->alias('$classname', '$facadepath');
+
+	}
+
