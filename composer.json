@@ -13,7 +13,7 @@
     },
     "autoload": {
         "classmap": [
-            "src\\Bespired\\Workbenchfacade\\Commands"
+            "src/Bespired/Workbenchfacade/Commands"
         ],
         "psr-0": {
             "Bespired\\Workbenchfacade": "src/"
