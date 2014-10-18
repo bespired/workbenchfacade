@@ -34,7 +34,7 @@ Add in app/config/app.php
     
 		'Bespired\Workbenchfacade\WorkbenchFacadeServiceProvider',
 	),
-	```
+```
 
 ##### how to use
 
