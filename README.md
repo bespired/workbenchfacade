@@ -30,7 +30,7 @@ Add in app/config/app.php
 ```php
 
 	'providers' => array(
-    ...
+    		...
     
 		'Bespired\Workbenchfacade\WorkbenchFacadeServiceProvider',
 	),
