@@ -36,6 +36,12 @@ Add in app/config/app.php
 	),
 ```
 
+or with bespired add-provider command:
+```php
+php artisan provider:add bespired/workbenchfacade --verbose
+```
+
+
 ##### how to use
 
 ```php
